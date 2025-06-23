@@ -51,9 +51,9 @@
   border-color: #4E75FF;
 }
 
-.search-button {
+.button {
   padding: 8px 16px;
-  width: 91px;
+  
   height: 40px;
   background-color: #4E75FF;
   color: #FFFFFF;
@@ -64,12 +64,16 @@
   transition: background-color 0.3s ease;
 }
 
-.search-button:hover {
+.button:hover {
   background-color: #6C8CFF;
 }
 
-.search-button:active {
+.button:active {
   background-color: #6C8CFF;
+}
+
+.search-btn {
+  width: 91px;
 }
 
 .gallery {
@@ -119,4 +123,10 @@ padding: 4px;
 
 .hidden {
   display: none;
+}
+
+.load-more {
+  display: flex;
+  margin: 32px auto;
+  width: 125px;
 }
